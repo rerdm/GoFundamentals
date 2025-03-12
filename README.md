@@ -97,23 +97,16 @@ GoFundamentals/
 ├── cmd/                # Main applications of the project
 │   └── app/
 │       └── main.go     # Entry point for the application
-├── pkg/                # Library code that's ok to use by external applications
-├── internal/           # Private application and library code
-│   └── app/
-│       └── app.go
-├── api/                # OpenAPI/Swagger specs, JSON schema files, protocol definitions
-├── web/                # Web application specific components
-│   ├── static/         # Static files
-│   └── templates/      # HTML templates
+├── pkg/                # external packages                
+|   api/                # OpenAPI/Swagger specs, JSON schema files, protocol definitions
 ├── configs/            # Configuration files
 ├── scripts/            # Scripts to perform various build, install, analysis, etc.
+├── db/                 # Databasemigration SQL-Files
+├── src/                # Additional external test apps and test data
 ├── test/               # Additional external test apps and test data
 ├── docs/               # Documentation files
-├── build/              # Packaging and Continuous Integration
-├── deployments/        # Deployment configurations and templates
 ├── examples/           # Examples for your applications and/or public libraries
 ├── tools/              # Supporting tools for this project
-├── vendor/             # Application dependencies (managed by `go mod vendor`)
 ├── go.mod              # Go module file
 ├── go.sum              # Go dependencies checksum file
 └── README.md           # Project README file
