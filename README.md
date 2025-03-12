@@ -101,12 +101,9 @@ GoFundamentals/
 |   api/                # OpenAPI/Swagger specs, JSON schema files, protocol definitions
 ├── configs/            # Configuration files
 ├── scripts/            # Scripts to perform various build, install, analysis, etc.
-├── db/                 # Databasemigration SQL-Files
 ├── src/                # Additional external test apps and test data
 ├── test/               # Additional external test apps and test data
 ├── docs/               # Documentation files
-├── examples/           # Examples for your applications and/or public libraries
-├── tools/              # Supporting tools for this project
 ├── go.mod              # Go module file
 ├── go.sum              # Go dependencies checksum file
 └── README.md           # Project README file
